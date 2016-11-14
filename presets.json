@@ -1,38 +1,4 @@
 [{
-"name": "St. John's MS",
-"dateday": {
-        "date": "Fri Nov 11 2016 12:00:00 GMT-0600 (CST)",
-        "day": 5
-},
-"schedule": [
-	[{"id":"0","className":"10","starttime":"08:30","endtime":"08:45","isGlobal":false},{"id":"1","className":"3","starttime":"08:45","endtime":"09:45","isGlobal":false},{"id":"2","className":"2","starttime":"09:50","endtime":"10:50","isGlobal":false},{"id":"3","className":"11","starttime":"10:50","endtime":"11:05","isGlobal":false},{"id":"4","className":"5","starttime":"11:05","endtime":"12:05","isGlobal":false},{"id":"5","className":"8","starttime":"12:05","endtime":"12:40","isGlobal":false},{"id":"6","className":"12","starttime":"12:40","endtime":"13:25","isGlobal":false},{"id":"7","className":"0","starttime":"13:30","endtime":"14:30","isGlobal":false},{"id":"8","className":"4","starttime":"14:35","endtime":"15:35","isGlobal":false},{"id":"9","className":"10","starttime":"15:35","endtime":"15:45","isGlobal":false}],
-	[{"id":"10","className":"7","starttime":"07:30","endtime":"08:15","isGlobal":false},{"id":"11","className":"10","starttime":"08:30","endtime":"08:35","isGlobal":false},{"id":"12","className":"13","starttime":"08:35","endtime":"09:15","isGlobal":false},{"id":"13","className":"10","starttime":"09:15","endtime":"09:30","isGlobal":false},{"id":"14","className":"0","starttime":"09:30","endtime":"10:30","isGlobal":false},{"id":"15","className":"11","starttime":"10:30","endtime":"10:45","isGlobal":false},{"id":"16","className":"4","starttime":"10:45","endtime":"11:45","isGlobal":false},{"id":"17","className":"8","starttime":"11:45","endtime":"12:25","isGlobal":false},{"id":"18","className":"1","starttime":"12:25","endtime":"13:25","isGlobal":false},{"id":"19","className":"2","starttime":"13:30","endtime":"14:30","isGlobal":false},{"id":"20","className":"6","starttime":"14:35","endtime":"15:45","isGlobal":false}],
-	[{"id":"21","className":"7","starttime":"07:30","endtime":"08:15","isGlobal":false},{"id":"22","className":"10","starttime":"08:30","endtime":"08:45","isGlobal":false},{"id":"23","className":"3","starttime":"08:45","endtime":"09:45","isGlobal":false},{"id":"24","className":"1","starttime":"09:50","endtime":"10:50","isGlobal":false},{"id":"25","className":"11","starttime":"10:50","endtime":"11:05","isGlobal":false},{"id":"26","className":"2","starttime":"11:05","endtime":"12:05","isGlobal":false},{"id":"27","className":"8","starttime":"12:05","endtime":"12:40","isGlobal":false},{"id":"28","className":"10","starttime":"12:40","endtime":"13:25","isGlobal":false},{"id":"29","className":"5","starttime":"13:30","endtime":"14:30","isGlobal":false},{"id":"30","className":"6","starttime":"14:35","endtime":"15:45","isGlobal":false}],
-	[{"id":"31","className":"9","starttime":"07:30","endtime":"08:15","isGlobal":false},{"id":"32","className":"10","starttime":"08:30","endtime":"08:45","isGlobal":false},{"id":"33","className":"1","starttime":"08:45","endtime":"09:45","isGlobal":false},{"id":"34","className":"4","starttime":"09:50","endtime":"10:50","isGlobal":false},{"id":"35","className":"11","starttime":"10:50","endtime":"11:05","isGlobal":false},{"id":"36","className":"5","starttime":"11:05","endtime":"12:05","isGlobal":false},{"id":"37","className":"8","starttime":"12:05","endtime":"12:40","isGlobal":false},{"id":"38","className":"12","starttime":"12:40","endtime":"13:25","isGlobal":false},{"id":"39","className":"0","starttime":"13:30","endtime":"14:30","isGlobal":false},{"id":"40","className":"3","starttime":"14:35","endtime":"15:35","isGlobal":false},{"id":"41","className":"10","starttime":"15:35","endtime":"15:45","isGlobal":false}],
-	[{"id":"42","className":"7","starttime":"07:30","endtime":"08:15","isGlobal":false},{"id":"43","className":"10","starttime":"08:30","endtime":"08:45","isGlobal":false},{"id":"44","className":"5","starttime":"08:45","endtime":"09:45","isGlobal":false},{"id":"45","className":"0","starttime":"09:50","endtime":"10:50","isGlobal":false},{"id":"46","className":"11","starttime":"10:50","endtime":"11:05","isGlobal":false},{"id":"47","className":"2","starttime":"11:05","endtime":"12:05","isGlobal":false},{"id":"48","className":"8","starttime":"12:05","endtime":"12:40","isGlobal":false},{"id":"49","className":"14","starttime":"12:40","endtime":"13:25","isGlobal":false},{"id":"50","className":"4","starttime":"13:30","endtime":"14:30","isGlobal":false},{"id":"51","className":"6","starttime":"14:35","endtime":"15:45","isGlobal":false}],
-	[{"id":"52","className":"7","starttime":"07:30","endtime":"08:15","isGlobal":false},{"id":"53","className":"10","starttime":"08:30","endtime":"08:45","isGlobal":false},{"id":"54","className":"2","starttime":"08:45","endtime":"09:45","isGlobal":false},{"id":"55","className":"1","starttime":"09:50","endtime":"10:50","isGlobal":false},{"id":"56","className":"11","starttime":"10:50","endtime":"11:05","isGlobal":false},{"id":"57","className":"4","starttime":"11:05","endtime":"12:05","isGlobal":false},{"id":"58","className":"8","starttime":"12:05","endtime":"12:40","isGlobal":false},{"id":"59","className":"12","starttime":"12:40","endtime":"13:25","isGlobal":false},{"id":"60","className":"3","starttime":"13:30","endtime":"14:30","isGlobal":false},{"id":"61","className":"6","starttime":"14:35","endtime":"15:45","isGlobal":false}],
-	[{"id":"62","className":"9","starttime":"07:30","endtime":"08:15","isGlobal":false},{"id":"63","className":"10","starttime":"08:30","endtime":"08:45","isGlobal":false},{"id":"64","className":"0","starttime":"08:45","endtime":"09:45","isGlobal":false},{"id":"65","className":"5","starttime":"09:50","endtime":"10:50","isGlobal":false},{"id":"66","className":"11","starttime":"10:50","endtime":"11:05","isGlobal":false},{"id":"67","className":"3","starttime":"11:05","endtime":"12:05","isGlobal":false},{"id":"68","className":"8","starttime":"12:05","endtime":"12:40","isGlobal":false},{"id":"69","className":"10","starttime":"12:40","endtime":"13:25","isGlobal":false},{"id":"70","className":"1","starttime":"13:30","endtime":"14:30","isGlobal":false},{"id":"71","className":"6","starttime":"14:35","endtime":"15:45","isGlobal":false}]
-],
-"globalSchedule": [],
-"schoolClasses": [
-	{"id":"0","className":"A","room":"","bgcolor":null,"whiteText":false},
-	{"id":"1","className":"B","room":"","bgcolor":null,"whiteText":false},
-	{"id":"2","className":"C","room":"","bgcolor":null,"whiteText":false},
-	{"id":"3","className":"D","room":"","bgcolor":null,"whiteText":false},
-	{"id":"4","className":"E","room":"","bgcolor":null,"whiteText":false},
-	{"id":"5","className":"F","room":"","bgcolor":null,"whiteText":false},
-	{"id":"6","className":"Athletics","room":"","bgcolor":null,"whiteText":false},
-	{"id":"7","className":"Ensembles","room":"","bgcolor":null,"whiteText":false},
-	{"id":"8","className":"Lunch","room":"","bgcolor":null,"whiteText":false},
-	{"id":"9","className":"Tutorial/Ensembles","room":"","bgcolor":null,"whiteText":false},
-	{"id":"10","className":"Advisory","room":"","bgcolor":null,"whiteText":false},
-	{"id":"11","className":"Recess","room":"","bgcolor":null,"whiteText":false},
-	{"id":"12","className":"Activity","room":"","bgcolor":null,"whiteText":false},
-	{"id":"13","className":"Chapel","room":"","bgcolor":null,"whiteText":false},
-	{"id":"14","className":"Assembly","room":"","bgcolor":null,"whiteText":false}
-]
-},
-{
 "name": "St. John's US",
 "dateday": {
 	"date": "Fri Nov 11 2016 12:00:00 GMT-0600 (CST)",
@@ -69,6 +35,40 @@
 ]
 },
 {
+"name": "St. John's MS",
+"dateday": {
+        "date": "Fri Nov 11 2016 12:00:00 GMT-0600 (CST)",
+        "day": 5
+},
+"schedule": [
+	[{"id":"0","className":"10","starttime":"08:30","endtime":"08:45","isGlobal":false},{"id":"1","className":"3","starttime":"08:45","endtime":"09:45","isGlobal":false},{"id":"2","className":"2","starttime":"09:50","endtime":"10:50","isGlobal":false},{"id":"3","className":"11","starttime":"10:50","endtime":"11:05","isGlobal":false},{"id":"4","className":"5","starttime":"11:05","endtime":"12:05","isGlobal":false},{"id":"5","className":"8","starttime":"12:05","endtime":"12:40","isGlobal":false},{"id":"6","className":"12","starttime":"12:40","endtime":"13:25","isGlobal":false},{"id":"7","className":"0","starttime":"13:30","endtime":"14:30","isGlobal":false},{"id":"8","className":"4","starttime":"14:35","endtime":"15:35","isGlobal":false},{"id":"9","className":"10","starttime":"15:35","endtime":"15:45","isGlobal":false}],
+	[{"id":"10","className":"7","starttime":"07:30","endtime":"08:15","isGlobal":false},{"id":"11","className":"10","starttime":"08:30","endtime":"08:35","isGlobal":false},{"id":"12","className":"13","starttime":"08:35","endtime":"09:15","isGlobal":false},{"id":"13","className":"10","starttime":"09:15","endtime":"09:30","isGlobal":false},{"id":"14","className":"0","starttime":"09:30","endtime":"10:30","isGlobal":false},{"id":"15","className":"11","starttime":"10:30","endtime":"10:45","isGlobal":false},{"id":"16","className":"4","starttime":"10:45","endtime":"11:45","isGlobal":false},{"id":"17","className":"8","starttime":"11:45","endtime":"12:25","isGlobal":false},{"id":"18","className":"1","starttime":"12:25","endtime":"13:25","isGlobal":false},{"id":"19","className":"2","starttime":"13:30","endtime":"14:30","isGlobal":false},{"id":"20","className":"6","starttime":"14:35","endtime":"15:45","isGlobal":false}],
+	[{"id":"21","className":"7","starttime":"07:30","endtime":"08:15","isGlobal":false},{"id":"22","className":"10","starttime":"08:30","endtime":"08:45","isGlobal":false},{"id":"23","className":"3","starttime":"08:45","endtime":"09:45","isGlobal":false},{"id":"24","className":"1","starttime":"09:50","endtime":"10:50","isGlobal":false},{"id":"25","className":"11","starttime":"10:50","endtime":"11:05","isGlobal":false},{"id":"26","className":"2","starttime":"11:05","endtime":"12:05","isGlobal":false},{"id":"27","className":"8","starttime":"12:05","endtime":"12:40","isGlobal":false},{"id":"28","className":"10","starttime":"12:40","endtime":"13:25","isGlobal":false},{"id":"29","className":"5","starttime":"13:30","endtime":"14:30","isGlobal":false},{"id":"30","className":"6","starttime":"14:35","endtime":"15:45","isGlobal":false}],
+	[{"id":"31","className":"9","starttime":"07:30","endtime":"08:15","isGlobal":false},{"id":"32","className":"10","starttime":"08:30","endtime":"08:45","isGlobal":false},{"id":"33","className":"1","starttime":"08:45","endtime":"09:45","isGlobal":false},{"id":"34","className":"4","starttime":"09:50","endtime":"10:50","isGlobal":false},{"id":"35","className":"11","starttime":"10:50","endtime":"11:05","isGlobal":false},{"id":"36","className":"5","starttime":"11:05","endtime":"12:05","isGlobal":false},{"id":"37","className":"8","starttime":"12:05","endtime":"12:40","isGlobal":false},{"id":"38","className":"12","starttime":"12:40","endtime":"13:25","isGlobal":false},{"id":"39","className":"0","starttime":"13:30","endtime":"14:30","isGlobal":false},{"id":"40","className":"3","starttime":"14:35","endtime":"15:35","isGlobal":false},{"id":"41","className":"10","starttime":"15:35","endtime":"15:45","isGlobal":false}],
+	[{"id":"42","className":"7","starttime":"07:30","endtime":"08:15","isGlobal":false},{"id":"43","className":"10","starttime":"08:30","endtime":"08:45","isGlobal":false},{"id":"44","className":"5","starttime":"08:45","endtime":"09:45","isGlobal":false},{"id":"45","className":"0","starttime":"09:50","endtime":"10:50","isGlobal":false},{"id":"46","className":"11","starttime":"10:50","endtime":"11:05","isGlobal":false},{"id":"47","className":"2","starttime":"11:05","endtime":"12:05","isGlobal":false},{"id":"48","className":"8","starttime":"12:05","endtime":"12:40","isGlobal":false},{"id":"49","className":"14","starttime":"12:40","endtime":"13:25","isGlobal":false},{"id":"50","className":"4","starttime":"13:30","endtime":"14:30","isGlobal":false},{"id":"51","className":"6","starttime":"14:35","endtime":"15:45","isGlobal":false}],
+	[{"id":"52","className":"7","starttime":"07:30","endtime":"08:15","isGlobal":false},{"id":"53","className":"10","starttime":"08:30","endtime":"08:45","isGlobal":false},{"id":"54","className":"2","starttime":"08:45","endtime":"09:45","isGlobal":false},{"id":"55","className":"1","starttime":"09:50","endtime":"10:50","isGlobal":false},{"id":"56","className":"11","starttime":"10:50","endtime":"11:05","isGlobal":false},{"id":"57","className":"4","starttime":"11:05","endtime":"12:05","isGlobal":false},{"id":"58","className":"8","starttime":"12:05","endtime":"12:40","isGlobal":false},{"id":"59","className":"12","starttime":"12:40","endtime":"13:25","isGlobal":false},{"id":"60","className":"3","starttime":"13:30","endtime":"14:30","isGlobal":false},{"id":"61","className":"6","starttime":"14:35","endtime":"15:45","isGlobal":false}],
+	[{"id":"62","className":"9","starttime":"07:30","endtime":"08:15","isGlobal":false},{"id":"63","className":"10","starttime":"08:30","endtime":"08:45","isGlobal":false},{"id":"64","className":"0","starttime":"08:45","endtime":"09:45","isGlobal":false},{"id":"65","className":"5","starttime":"09:50","endtime":"10:50","isGlobal":false},{"id":"66","className":"11","starttime":"10:50","endtime":"11:05","isGlobal":false},{"id":"67","className":"3","starttime":"11:05","endtime":"12:05","isGlobal":false},{"id":"68","className":"8","starttime":"12:05","endtime":"12:40","isGlobal":false},{"id":"69","className":"10","starttime":"12:40","endtime":"13:25","isGlobal":false},{"id":"70","className":"1","starttime":"13:30","endtime":"14:30","isGlobal":false},{"id":"71","className":"6","starttime":"14:35","endtime":"15:45","isGlobal":false}]
+],
+"globalSchedule": [],
+"schoolClasses": [
+	{"id":"0","className":"A","room":"","bgcolor":null,"whiteText":false},
+	{"id":"1","className":"B","room":"","bgcolor":null,"whiteText":false},
+	{"id":"2","className":"C","room":"","bgcolor":null,"whiteText":false},
+	{"id":"3","className":"D","room":"","bgcolor":null,"whiteText":false},
+	{"id":"4","className":"E","room":"","bgcolor":null,"whiteText":false},
+	{"id":"5","className":"F","room":"","bgcolor":null,"whiteText":false},
+	{"id":"6","className":"Athletics","room":"","bgcolor":null,"whiteText":false},
+	{"id":"7","className":"Ensembles","room":"","bgcolor":null,"whiteText":false},
+	{"id":"8","className":"Lunch","room":"","bgcolor":null,"whiteText":false},
+	{"id":"9","className":"Tutorial/Ensembles","room":"","bgcolor":null,"whiteText":false},
+	{"id":"10","className":"Advisory","room":"","bgcolor":null,"whiteText":false},
+	{"id":"11","className":"Recess","room":"","bgcolor":null,"whiteText":false},
+	{"id":"12","className":"Activity","room":"","bgcolor":null,"whiteText":false},
+	{"id":"13","className":"Chapel","room":"","bgcolor":null,"whiteText":false},
+	{"id":"14","className":"Assembly","room":"","bgcolor":null,"whiteText":false}
+]
+},
+{
 "name": "St. John's LS",
 "dateday": {
 	"date": "Fri Nov 11 2016 12:00:00 GMT-0600 (CST)",
@@ -79,4 +79,3 @@
 "schoolClasses": []
 }
 ]
-
