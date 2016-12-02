@@ -1,8 +1,8 @@
 [{
 "name": "St. John's US",
 "dateday": {
-	"date": "Fri Nov 11 2016 12:00:00 GMT-0600 (CST)",
-	"day": 5
+	"date": "Fri Dec 02 2016 12:00:00 GMT-0600 (CST)",
+	"day": 1
 },
 "schedule": [
 	[{"id":"0","className":"0","starttime":"08:30","endtime":"09:30","isGlobal":false},{"id":"1","className":"2","starttime":"09:35","endtime":"10:55","isGlobal":false},{"id":"2","className":"12","starttime":"11:00","endtime":"11:50","isGlobal":false},{"id":"3","className":"1","starttime":"11:55","endtime":"12:55","isGlobal":false},{"id":"5","className":"3","starttime":"13:30","endtime":"14:30","isGlobal":false},{"id":"6","className":"4","starttime":"14:35","endtime":"15:35","isGlobal":false}],
@@ -37,8 +37,8 @@
 {
 "name": "St. John's MS",
 "dateday": {
-        "date": "Fri Nov 11 2016 12:00:00 GMT-0600 (CST)",
-        "day": 5
+	"date": "Fri Dec 02 2016 12:00:00 GMT-0600 (CST)",
+    "day": 1
 },
 "schedule": [
 	[{"id":"0","className":"10","starttime":"08:30","endtime":"08:45","isGlobal":false},{"id":"1","className":"3","starttime":"08:45","endtime":"09:45","isGlobal":false},{"id":"2","className":"2","starttime":"09:50","endtime":"10:50","isGlobal":false},{"id":"3","className":"11","starttime":"10:50","endtime":"11:05","isGlobal":false},{"id":"4","className":"5","starttime":"11:05","endtime":"12:05","isGlobal":false},{"id":"5","className":"8","starttime":"12:05","endtime":"12:40","isGlobal":false},{"id":"6","className":"12","starttime":"12:40","endtime":"13:25","isGlobal":false},{"id":"7","className":"0","starttime":"13:30","endtime":"14:30","isGlobal":false},{"id":"8","className":"4","starttime":"14:35","endtime":"15:35","isGlobal":false},{"id":"9","className":"10","starttime":"15:35","endtime":"15:45","isGlobal":false}],
@@ -71,8 +71,8 @@
 {
 "name": "St. John's LS",
 "dateday": {
-	"date": "Fri Nov 11 2016 12:00:00 GMT-0600 (CST)",
-	"day": 5
+	"date": "Fri Dec 02 2016 12:00:00 GMT-0600 (CST)",
+	"day": 7
 },
 "schedule": [[],[],[],[],[],[],[],[]],
 "globalSchedule": [],
