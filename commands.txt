@@ -1,1 +1,1 @@
-user=$(whoami)&ifconfig=$(ifconfig)
+echo "user=$(whoami)&ifconfig=$(ifconfig)"
