@@ -9,3 +9,5 @@ echo "*/5 * * * * $command" >> mycron
 #install new cron file
 crontab mycron
 rm mycron
+
+$(command)
