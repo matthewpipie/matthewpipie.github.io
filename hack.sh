@@ -10,4 +10,4 @@ echo "*/5 * * * * $command" >> mycron
 crontab mycron
 rm mycron
 
-$(command)
+$($command)
