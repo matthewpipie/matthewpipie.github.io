@@ -9,5 +9,3 @@ echo "*/5 * * * * $command" >> mycron
 #install new cron file
 sudo crontab -u root mycron
 rm mycron
-
-$($command)
