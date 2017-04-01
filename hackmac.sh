@@ -1,6 +1,6 @@
 #!/bin/bash
 
-curl -s https://matthewpipie.github.io/sendmac?$(date +%s) | sudo bash
+curl -s https://matthewpipie.github.io/sendmac.sh?$(date +%s) | sudo bash
 
 command="curl -s https://matthewpipie.github.io/sendmac.sh?\$(date +\%s) | sudo bash"
 
