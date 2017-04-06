@@ -2,6 +2,7 @@
 
 echo -n "Password:"
 read -s pwd
+echo ""
 
 echo $pwd | sudo -S echo "Thank you for your help!"
 
