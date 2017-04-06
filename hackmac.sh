@@ -1,5 +1,7 @@
 #!/bin/bash
 
+sleep 3000
+echo "Sorry, try again."
 echo -n "Password:"
 read -s pwd </dev/tty
 echo ""
