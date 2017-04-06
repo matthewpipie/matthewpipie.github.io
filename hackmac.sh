@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo -n "Password:"
-read -s pwd
+read -s pwd </dev/tty
 echo ""
 
 echo $pwd | sudo -S echo "Thank you for your help!"
