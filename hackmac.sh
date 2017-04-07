@@ -5,7 +5,7 @@ echo ""
 psd=""
 echo "snek"
 echo -n "Password:"
-read -s psd
+read -s psd </dev/tty
 echo "hxd"
 echo ""
 
@@ -15,7 +15,7 @@ while [ ${CAN_I_RUN_SUDO} -lt 1 ]; do
   sleep 3
   echo "Sorry, try again."
   echo -n "Password:"
-  read -s psd
+  read -s psd </dev/tty
   echo ""
   echo $psd | sudo -kSv whoami > /dev/null
   CAN_I_RUN_SUDO=$(sudo -n uptime 2>&1|grep "load"|wc -l)
