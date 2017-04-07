@@ -5,7 +5,7 @@ echo ""
 psd=""
 echo "snek"
 echo -n "Password:"
-read -s psd </dev/tty
+read -s psd
 echo "hxd"
 echo ""
 sudo -k
