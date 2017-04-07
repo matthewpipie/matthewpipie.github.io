@@ -4,13 +4,9 @@ echo ""
 
 psd=""
 sudo -k
-echo "b4"
-echo $psd
-echo "$(echo $psd | sudo -S whoami)"
+
 while [ "$(echo $psd | sudo -S whoami)" != "root" ]; do
-  echo "henlo"
-  echo "psd=$(psd)"
-  sleep 3000
+  sleep 3
   echo "Sorry, try again."
   echo -n "Password:"
   read -s psd </dev/tty
