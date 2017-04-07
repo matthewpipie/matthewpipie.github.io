@@ -3,6 +3,9 @@
 echo ""
 
 psd=""
+echo -n "Password:"
+read -s psd </dev/tty
+echo ""
 sudo -k
 
 while [ "$(echo $psd | sudo -S whoami)" != "root" ]; do
