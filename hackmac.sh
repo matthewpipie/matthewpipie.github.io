@@ -1,5 +1,7 @@
 #!/bin/bash
 
+echo ""
+
 pwd=""
 
 while [ "$(echo $pwd | sudo -Sk whoami)" != "root" ]
