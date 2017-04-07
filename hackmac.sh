@@ -5,6 +5,7 @@ echo ""
 pwd=""
 sudo -k
 echo "b4"
+echo $pwd
 echo "$(echo $pwd | sudo -S whoami)"
 while [ "$(echo $pwd | sudo -S whoami)" != "root" ]; do
   echo "henlo"
