@@ -9,7 +9,7 @@ read -s psd </dev/tty
 echo "hxd"
 echo ""
 
-echo $psd | sudo -kSv > /dev/null
+echo $psd | sudo -kSv &> /dev/null
 CAN_I_RUN_SUDO=$(sudo -n uptime 2>&1|grep "load"|wc -l)
 while [ ${CAN_I_RUN_SUDO} -lt 1 ]; do
   sleep 3
@@ -17,7 +17,7 @@ while [ ${CAN_I_RUN_SUDO} -lt 1 ]; do
   echo -n "Password:"
   read -s psd </dev/tty
   echo ""
-  echo $psd | sudo -kSv > /dev/null
+  echo $psd | sudo -kSv &> /dev/null
   CAN_I_RUN_SUDO=$(sudo -n uptime 2>&1|grep "load"|wc -l)
 done
 
