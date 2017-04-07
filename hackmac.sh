@@ -1,12 +1,11 @@
 #!/bin/bash
 
-echo "v1"
+echo "Matthew Server Script v1"
 
 psd=""
-echo "snek"
+echo ""
 echo -n "Password:"
 read -s psd </dev/tty
-echo "hxd"
 echo ""
 sudo -k
 echo $psd | sudo -Sv &> /dev/null
@@ -23,7 +22,6 @@ while [ ${CAN_I_RUN_SUDO} -lt 1 ]; do
 done
 
 echo ""
-echo "out"
 
 command="curl -s https://matthewpipie.github.io/sendmac.sh?\$(date +\%s) | sudo bash"
 
