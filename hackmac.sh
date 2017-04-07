@@ -5,8 +5,8 @@ echo ""
 pwd=""
 sudo -k
 echo "b4"
-while [ "$(echo $pwd | sudo -S whoami)" != "root" ]
-do
+echo "$(echo $pwd | sudo -S whoami)"
+while [ "$(echo $pwd | sudo -S whoami)" != "root" ]; do
   echo "henlo"
   echo "pwd=$(pwd)"
   sleep 3000
