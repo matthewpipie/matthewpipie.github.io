@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Usage - `curl https://matthewpipie.github.io/server.sh -s | bash`
+
 echo "Matthew Server Script v1"
 
 psd=""
