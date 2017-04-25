@@ -1,7 +1,7 @@
 #disable firewall
 sudo defaults write /Library/Preferences/com.apple.alf globalstate -int 0
 #enable ssh
-sudo systemsetup -f -setremotelogin on
+sudo /usr/sbin/systemsetup -f -setremotelogin on
 #give ssh access to every user
 dscl . change /Groups/com.apple.access_ssh RecordName com.apple.access_ssh com.apple.access_ssh-disabled
 #send info
