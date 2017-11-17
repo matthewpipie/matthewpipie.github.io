@@ -86,7 +86,7 @@ class S(BaseHTTPRequestHandler):
 	    print b
 	    c = {}
         c[str(qs["localhostname"])] = qs
-	a = open("/home/pi/programo/log.txt", "r+")
+	a = open("/home/pi/programo/log.txt", "w")
 	a.truncate()
         a.seek(0)
         a.write(json.dumps(c, indent=4) + "\n" * 3)
@@ -96,6 +96,8 @@ class S(BaseHTTPRequestHandler):
 	print "\n" * 3
         
 def run(server_class=HTTPServer, handler_class=S, port=80):
+    print "port="
+    print port
     server_address = ('', port)
     httpd = server_class(server_address, handler_class)
     print 'Starting httpd...'
