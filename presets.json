@@ -1,5 +1,5 @@
 [{
-"name": "St. John's US",
+"name": "St. John's US 2018-2019",
 "dateday": {
 	"date": "Mon Jan 02 2017 10:30:45 GMT-0600 (Central Standard Time)",
 	"day": 5
@@ -34,7 +34,7 @@
 ]
 },
 {
-"name": "St. John's MS",
+"name": "St. John's MS 2018-2019",
 "dateday": {
 	"date": "Mon Jan 02 2017 12:00:00 GMT-0600 (CST)",
     "day": 5
@@ -68,7 +68,7 @@
 ]
 },
 {
-"name": "Hot Springs World HS",
+"name": "Hot Springs World HS 2018-2019",
 "dateday": {
 	"date": "Tue Aug 21 2018 01:11:30 GMT+0000 (GMT)",
 	"day": 1
