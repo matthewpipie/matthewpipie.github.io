@@ -2,7 +2,7 @@
 "name": "St. John's US 2018-2019",
 "dateday": {
 	"date": "Mon Jan 02 2017 10:30:45 GMT-0600 (Central Standard Time)",
-	"day": 5
+	"day": 7
 },
 "schedule": [
 [{"id":"0","className":"0","starttime":"08:30","endtime":"09:30","isGlobal":false},{"id":"1","className":"2","starttime":"09:35","endtime":"10:55","isGlobal":false},{"id":"2","className":"12","starttime":"11:00","endtime":"11:50","isGlobal":false},{"id":"3","className":"1","starttime":"11:55","endtime":"12:55","isGlobal":false},{"id":"5","className":"3","starttime":"13:30","endtime":"14:30","isGlobal":false},{"id":"6","className":"4","starttime":"14:35","endtime":"15:35","isGlobal":false},{"id":"55","className":"8","starttime":"07:30","endtime":"08:15","isGlobal":false},{"id":"56","className":"7","starttime":"13:00","endtime":"13:25","isGlobal":false}],
